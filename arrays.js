@@ -48,8 +48,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 // This function should return the entire array in the same line, and it should not mutate the original array.
 
 function removeElementFromBeginningOfArray(array) {
-  var newArray = new Array();
-  newArray = array
-  array.slice(1)
-  return newArray;
+  //var newArray = new Array();
+  //newArray = array
+  array = array.slice(1)
+  return array;
 }
