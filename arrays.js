@@ -59,7 +59,7 @@ function removeElementFromBeginningOfArray(array) {
 // Your function should return the entire array, and it should mutate the array.
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  array = array.pop()
+  array.pop()
   return array;
 }
 
@@ -69,5 +69,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 // Your function should return the array without the last element, and it should not mutate the original array.
 
 function removeElementFromEndOfArray(array) {
-
+  array = array.pop()
+  return array;
 }
